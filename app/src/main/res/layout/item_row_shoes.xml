@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        tools:src="#ffff"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/img_item"
+        android:layout_toRightOf="@id/img_item">
+
+        <TextView
+            android:id="@+id/shoes_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/shoes_name"/>
+
+        <TextView
+            android:id="@+id/shoes_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="4"
+            tools:text="@string/shoes_detail"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

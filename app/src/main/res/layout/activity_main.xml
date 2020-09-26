@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#c9e6e2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:src="@drawable/shoes"/>
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bangers"
+        android:text="CHR'S SHOES"
+        android:textAlignment="center"
+        android:textColor="#2b877a"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/sloganTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/antic"
+        android:text="Elegance you can wear"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="" />
+
+
+</LinearLayout>
